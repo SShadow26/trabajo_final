@@ -1,0 +1,29 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	/* 1 rem = 10 pixeles*/
+}
+
+@font-face {
+    font-family: 'Timegoing Regular Font';
+    src: url('../resources/fonts/Timegoing_Regular.ttf');
+}
+
+body {
+    background: linear-gradient(90deg, #4edad2 0%, #01caab 100%);
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Timegoing Regular Font';
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 2.5rem;
+}
+
+.espaciado {
+    margin-top: 2em;
+}

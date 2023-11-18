@@ -1,0 +1,63 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	/* 1 rem = 10 pixeles*/
+}
+
+@font-face {
+    font-family: 'Timegoing Regular Font';
+    src: url('../resources/fonts/Timegoing_Regular.ttf');
+}
+
+body {
+    background: linear-gradient(90deg, #4edad2 0%, #01caab 100%);
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Timegoing Regular Font';
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2.5rem;
+}
+
+.espaciado {
+    margin-top: 5em;
+}
+
+input {
+    background-color: #2ad3c0;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+button {
+    background-color: #20d1bb;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    font-size: 2.5rem;
+}
+
+button:hover {
+    background-color: #414141;
+    color: #01caab;
+}
+
+a {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #414141;
+    font-size: 2.5rem;
+}
